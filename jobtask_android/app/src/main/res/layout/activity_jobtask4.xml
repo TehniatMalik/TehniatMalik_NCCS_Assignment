@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".jobtask4">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ethereum Portfolio"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="468dp"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/Untitled"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="170dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:text="<"
+        android:textColor="#090909"
+        android:textSize="18sp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="338dp"
+        android:layout_height="42dp"
+        android:background="#DFDCDC"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Price"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sell Price"
+        android:textColor="#191818"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$1320.38"
+        android:textColor="#151515"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="122dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/Unit"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$1280.48 (820%)"
+        android:textColor="#009688"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="154dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the Product"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="440dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Detail"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="445dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="354dp"
+        android:layout_height="174dp"
+        android:background="#EFEFEF"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="472dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ethereum Product"
+        android:textColor="#151515"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="487dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Past Year"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="537dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day Low"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="537dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day High"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="537dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+820.76%"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$1,220.49"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$2,120.89"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="354dp"
+        android:layout_height="43dp"
+        android:text="Buy"
+        app:backgroundTint="#2196F3"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="654dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
